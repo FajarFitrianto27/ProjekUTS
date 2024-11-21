@@ -38,19 +38,20 @@ Aplikasi memiliki tampilan sederhana dengan antarmuka berbasis `JFrameForm` yang
 ## Struktur Kode
 ### Pernyataan yang di gunakan
 ```
-import javax.swing.*;
-import javax.swing.table.DefaultTableModel;
-import java.awt.event.*;
-import java.util.ArrayList;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.print.PageFormat;
-import java.awt.print.Printable;
-import java.awt.print.PrinterException;
-import java.awt.print.PrinterJob;
-import java.io.File;
-import java.io.FileWriter;
-import javax.swing.JOptionPane;
+import javax.swing.*;                                       // Untuk komponen GUI seperti JFrame, JTable, JButton, JTextField, JTextArea, dll.
+import javax.swing.table.DefaultTableModel;                 // Untuk model tabel yang digunakan dengan JTable, memungkinkan manipulasi data tabel.
+import java.awt.event.*;                                    // Untuk menangani event seperti klik tombol atau aksi pengguna.
+import java.util.ArrayList;                                 // Untuk menyimpan daftar catatan dalam struktur data dinamis.
+import java.awt.Graphics;                                   // Untuk operasi grafis, terutama untuk pencetakan.
+import java.awt.Graphics2D;                                 // Untuk manipulasi grafis tingkat lanjut, seperti translasi saat mencetak.
+import java.awt.print.PageFormat;                           // Untuk menentukan format halaman cetak seperti margin dan orientasi.
+import java.awt.print.Printable;                            // Antarmuka yang menentukan apa yang akan dicetak pada halaman.
+import java.awt.print.PrinterException;                     // Untuk menangani kesalahan terkait pencetakan.
+import java.awt.print.PrinterJob;                           // Untuk mengatur dan memulai pekerjaan pencetakan.
+import java.io.File;                                        // Untuk operasi file, seperti menentukan lokasi file untuk menyimpan catatan.
+import java.io.FileWriter;                                  // Untuk menulis data ke file dalam bentuk teks.
+import javax.swing.JOptionPane;                             // Untuk menampilkan dialog pesan kepada pengguna, seperti informasi atau peringatan.
+
 ```
 
 ### Konstruktor
